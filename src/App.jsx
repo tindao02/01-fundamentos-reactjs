@@ -1,8 +1,12 @@
-import { Post } from './assets/Post'
+import { Header } from './Components/Header'
+import { Post } from './Post'
+import './styles.css';
 
 export function App() {
   return (
     <div>
+      <Header/>
+
       <Post 
         author="Diego Fernandes"
         content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores autem dolore mollitia?"
