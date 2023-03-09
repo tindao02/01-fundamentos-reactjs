@@ -2,12 +2,11 @@ import styles from './Post.module.css';
 
 export function Post() {
     return(
-        <article className={styles.Post}>
+        <article className={styles.post}>
             <header>
                 <div className={styles.author}>
                     <img 
-                        className={styles.avatar}
-                        src="https://images.unsplash.com/photo-1622779553291-9f2006fddd5f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=30" 
+                        src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=30" 
                     />
                     <div className={styles.authorInfo}>
                         <strong>Flávio Batista</strong>
@@ -27,7 +26,11 @@ export function Post() {
                     asperiores sit corporis dignissimos distinctio!
                 </p>
                 <p><a href='#'>jane.designer/doctorcare</a></p>
-                <p><a href='#'>#novoprojeto</a> <a href='#'>#nlw</a> <a href='#'>#rocketseat</a></p>
+                <p>
+                    <a href='#'>#novoprojeto</a> {' '}
+                    <a href='#'>#nlw</a> {' '}
+                    <a href='#'>#rocketseat</a>
+                </p>
             </div>
 
         </article>
